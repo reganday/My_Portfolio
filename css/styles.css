@@ -10952,7 +10952,10 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  /* Set transparent background for the text */
+  background-color: rgba(0, 0, 0, 0);
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
